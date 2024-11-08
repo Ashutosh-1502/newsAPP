@@ -1,0 +1,24 @@
+{
+  "name": "newapp-backend",
+  "version": "1.0.0",
+  "description": "News App Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon Backend/server.js",
+    "start": "node Backend/index.js"
+  },
+  "author": "Ashutosh Suryavanshi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.3",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.0.8",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7"
+  }
+}
